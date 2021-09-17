@@ -14,7 +14,6 @@ program.name(cliName).version(pkg.version).usage("<command> [options]");
 program
   .command("start [ecosystem.config.js]")
   .action(async function (ecosystem) {
-    console.log(ecosystem);
     let configPath;
     if (!ecosystem) {
       configPath = path.join(process.cwd(), "ecosystem.config.js");

@@ -1,6 +1,6 @@
 {
   "name": "pm2-s",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "pm2 顺序执行插件",
   "main": "index.js",
   "bin": {
