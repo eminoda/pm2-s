@@ -1,0 +1,32 @@
+{
+  "name": "pm2-s",
+  "version": "1.0.0",
+  "description": "pm2 顺序执行插件",
+  "main": "index.js",
+  "bin": {
+    "pm2-s": "pm2-s-cli.js"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eminoda/pm2-s.git"
+  },
+  "keywords": [
+    "pm2",
+    "run-s",
+    "serial",
+    "sequential"
+  ],
+  "author": "eminoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eminoda/pm2-s/issues"
+  },
+  "homepage": "https://github.com/eminoda/pm2-s#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "pm2": "^5.1.1"
+  }
+}
