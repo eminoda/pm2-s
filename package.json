@@ -4,7 +4,7 @@
   "description": "pm2 顺序执行插件",
   "main": "index.js",
   "bin": {
-    "pm2-s": "pm2-s-cli.js"
+    "pm2-s": "bin/pm2-s-cli.js"
   },
   "scripts": {
   },

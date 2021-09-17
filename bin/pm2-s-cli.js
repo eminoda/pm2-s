@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * pm2 init simple 创建配置文件
  */
